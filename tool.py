@@ -6,7 +6,7 @@ import pyfiglet
 time1= (102490, 70958, 300148, 300210,)
 timee = random.choice(time1)
 O = '\033[0;37m'
-Le = pyfiglet.figlet_format(' climed [:] ')
+Le = pyfiglet.figlet_format(' climer ')
 print(O+Le)
 
 heros1 = 'qwertyuiopasdfghjklzxcvbnm1234567890'
