@@ -35,7 +35,7 @@ def Lev ():
 	   reqsnd = requests.get(tiko, headers=hea).text
 	   if '"statusCode":10221,' in reqsnd:
 	           print(f'\033[0;32m uSeR is Available! | {user}')
-	           requests.post(f"https://api.telegram.org/bot{token}/sendMessage?chat_id={id}&text=[Nigga iam Here](t.me/kckkkkc) : `@{user}` | After : {timee}")
+	           requests.post(f"https://api.telegram.org/bot{token}/sendMessage?chat_id={id}&text=Nigga iam Here : @{user} | After : {timee}")
 	   else:
 	   	print(f'\033[0;31m uSeR is NoT Available | {user}')
 Threads=[] 
